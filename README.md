@@ -1,4 +1,4 @@
-# [Odoo](https://www.odoo.com "Odoo's Homepage") Install Script
+# [Odoo](https://www.odoo.com "Odoo's Homepage") CRM Base Install Script
 
 This script is based on the install script from André Schenkels (https://github.com/aschenkels-ictstudio/openerp-install-scripts)
 but goes a bit further and has been improved. This script will also give you the ability to define an xmlrpc_port in the .conf file that is generated under /etc/
@@ -8,7 +8,9 @@ This script can be safely used in a multi-odoo code base server because the defa
 
 ##### 1. Download the script:
 ```
-sudo wget https://raw.githubusercontent.com/Yenthe666/InstallScript/11.0/odoo_install.sh
+sudo wget https://raw.githubusercontent.com/PoloHandelsAG/InstallScript/blob/11.0/odoo_install.sh
+
+#### if it causes issues, try  https://raw.githubusercontent.com/PoloHandelsAG/InstallScript/11.0/odoo_install.sh
 ```
 ##### 2. Modify the parameters as you wish.
 There are a few things you can configure, this is the most used list:<br/>
